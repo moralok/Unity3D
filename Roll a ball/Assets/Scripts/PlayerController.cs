@@ -14,7 +14,6 @@ public class PlayerController : MonoBehaviour {
 
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
-		speed = 5;
 		count = 0;
 		SetCountText ();
 		winText.text = "";
